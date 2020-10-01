@@ -12,6 +12,7 @@
         android:text="@string/titulo"
         android:gravity="center"
         android:layout_marginTop="@dimen/marginTopBase"
+        android:textSize="@dimen/TextSizeTitulo"
         android:layout_height="wrap_content">
     </TextView>
 <LinearLayout
@@ -21,6 +22,7 @@
     android:layout_height="wrap_content">
     <EditText
         android:layout_width="match_parent"
+        android:id="@+id/artistaTxt"
         android:layout_weight="1"
         android:hint="Nombre del Artista"
         android:layout_height="wrap_content">
@@ -47,17 +49,40 @@
     <EditText
         android:layout_width="match_parent"
         android:id="@+id/editnum"
-        android:ems="10"
+        android:hint="Valor de entrada"
+        android:layout_weight="1"
         android:inputType="number"
         android:layout_height="wrap_content">
     </EditText>
-    <Spinner
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/marginTopBase"
+    android:layout_height="wrap_content">
+    <TextView
         android:layout_width="match_parent"
         android:layout_weight="1"
-        android:id="@+id/idSpinnerNum"
+        android:textAlignment="center"
+        android:text="Calificación :"
+        android:layout_height="wrap_content">
+    </TextView>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:text="Numeros"
+        android:id="@+id/idSpinnerNumeros"
         android:layout_height="wrap_content">
     </Spinner>
-
 </LinearLayout>
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/marginTopButton"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/registrarBtn"
+            android:text="Registrar"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
 </LinearLayout>

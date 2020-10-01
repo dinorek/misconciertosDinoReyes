@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="marginTopBase">30dp</dimen>
+    <dimen name="marginTopButton">50dp</dimen>
+    <dimen name="TextSizeTitulo">20dp</dimen>
 </resources>
