@@ -1,5 +1,7 @@
 package cl.inacap.misconciertos.dto;
 
+import android.widget.EditText;
+
 import java.util.Date;
 
 public class Evento {
@@ -50,5 +52,11 @@ public class Evento {
 
     private Integer calificacion;
 
+@Override
+public String toString(){
+    return fecha + " " + banda + " " + valorEntrada;
+}
 
+    public void setFecha(EditText fecha) {
+    }
 }
