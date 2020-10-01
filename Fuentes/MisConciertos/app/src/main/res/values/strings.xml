@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MisConciertos</string>
+    <string name="titulo">Agregar Nuevo Concierto</string>
+    <string name="generos">Generos</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:text="@string/titulo"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/marginTopBase"
+        android:layout_height="wrap_content">
+    </TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/marginTopBase"
+    android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:hint="Nombre del Artista"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/fecha"
+        android:layout_height="wrap_content">
+    </EditText>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/marginTopBase"
+    android:layout_height="wrap_content">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/idSpinnerGeneros"
+        android:text="@string/generos"
+        android:layout_height="wrap_content">
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/editnum"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/idSpinnerNum"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+</LinearLayout>
+
+</LinearLayout>
